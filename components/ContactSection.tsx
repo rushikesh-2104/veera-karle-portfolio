@@ -27,7 +27,7 @@ ${message}`;
   };
 
   return (
-    <section className="relative overflow-hidden mb-5 bg-black py-28">
+    <section className="relative flex min-h-screen items-center overflow-hidden bg-black py-20">
 
       {/* Background Glow */}
       <div className="absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#D4AF37]/10 blur-3xl"></div>
@@ -43,11 +43,11 @@ ${message}`;
           className="mb-20"
         >
 
-          <p className="mb-4 text-xs tracking-[0.45em] text-[#D4AF37] md:text-sm">
+          <p className="mb-8  text-xs tracking-[0.45em] text-[#D4AF37] md:text-sm">
             CONTACT
           </p>
 
-          <h2 className="text-4xl font-light leading-none text-white sm:text-5xl md:text-7xl">
+          <h2 className="text-4xl font-light leading-none text-white sm:text-5xl md:text-7xl md:mb-5">
             Let’s Create
             <br />
             Something Cinematic
@@ -56,7 +56,7 @@ ${message}`;
         </motion.div>
 
         {/* Main Layout */}
-        <div className="grid gap-16 lg:grid-cols-2">
+        <div className="grid gap-10 lg:grid-cols-2 md:gap-35">
 
           {/* Left Content */}
           <motion.div
@@ -66,7 +66,7 @@ ${message}`;
             viewport={{ once: true }}
           >
 
-            <p className="max-w-xl text-sm leading-8 tracking-[0.08em] text-white/50 md:text-base">
+            <p className="max-w-xl md:pt-5 text-sm leading-8 tracking-[0.08em] text-white/50 md:text-base">
               For collaborations, fashion editorials, performances,
               brand campaigns or creative projects,
               feel free to connect and bring your vision to life.

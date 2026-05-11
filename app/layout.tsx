@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description:
       "Explore the cinematic portfolio of Veera Karle featuring fashion editorials, dance, acting and visual storytelling.",
 
-    url: "https://yourdomain.com",
+    url: "https://veera-karle-portfolio.vercel.app",
 
     siteName: "Veera Karle",
 
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     description:
       "Fashion • Dance • Acting • Editorial Storytelling",
 
-    images: ["/seo/preview.jpg"],
+    images: ["/images/logo.png"],
   },
 
   icons: {

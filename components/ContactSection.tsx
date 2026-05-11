@@ -142,14 +142,14 @@ ${message}`;
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
             viewport={{ once: true }}
-            className="rounded-[20px]  border border-white/10 bg-white/[0.03] p-8 backdrop-blur-sm md:p-15"
+            className="p-10 backdrop-blur-sm md:px-5 md:py-5"
           >
 
             <form className="space-y-10">
 
               {/* Name */}
               <div>
-                <label className="mb-3 block text-xs tracking-[0.3em] text-white/40">
+                <label className="block text-xs tracking-[0.3em] text-white/40">
                   YOUR NAME
                 </label>
 
@@ -196,7 +196,7 @@ ${message}`;
               <button
                 type="button"
                 onClick={handleWhatsApp}
-                className="group flex  items-center gap-3 rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-8 py-4 text-sm tracking-[0.25em] text-white transition duration-500 hover:bg-[#D4AF37] hover:text-black"
+                className="group flex  items-center gap-3 rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-8 py-4 text-sm  text-white transition duration-500 hover:bg-[#D4AF37] hover:text-black"
               >
 
                 SEND MESSAGE

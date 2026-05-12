@@ -56,7 +56,7 @@ ${message}`;
         </motion.div>
 
         {/* Main Layout */}
-        <div className="grid gap-10 lg:grid-cols-2 md:gap-35">
+        <div className="grid h-full gap-10 lg:grid-cols-2 md:gap-35">
 
           {/* Left Content */}
           <motion.div
@@ -73,10 +73,10 @@ ${message}`;
             </p>
 
             {/* Contact Cards */}
-            <div className="mt-12 space-y-5">
+            <div className="space-y-5">
 
               {/* Email */}
-              <div className="group flex items-center gap-5 rounded-[24px] border border-white/10 bg-white/[0.03] p-5 transition duration-500 hover:border-[#D4AF37]/30 hover:bg-[#D4AF37]/5">
+              <div className="group flex items-center gap-5 rounded-3xl border border-white/10 bg-white/[0.03] p-5 transition duration-500 hover:border-[#D4AF37]/30 hover:bg-[#D4AF37]/5">
 
                 <div className="flex h-14 w-14 items-center justify-center rounded-full border border-white/10 bg-black">
                   <Mail className="h-5 w-5 text-[#D4AF37]" />
@@ -145,7 +145,7 @@ ${message}`;
             className="p-10 backdrop-blur-sm md:px-5 md:py-5"
           >
 
-            <form className="space-y-10">
+            <form className="flex-col">
 
               {/* Name */}
               <div>
@@ -196,7 +196,7 @@ ${message}`;
               <button
                 type="button"
                 onClick={handleWhatsApp}
-                className="group flex  items-center gap-3 rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-8 py-4 text-sm  text-white transition duration-500 hover:bg-[#D4AF37] hover:text-black"
+                className="group flex  items-center gap-3 rounded-full border border-[#D4AF37]/30 bg-[#D4AF37]/10 px-8  md:px-15 py-4 text-sm  text-white transition duration-500 hover:bg-[#D4AF37] hover:text-black"
               >
 
                 SEND MESSAGE

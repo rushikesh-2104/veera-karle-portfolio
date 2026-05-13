@@ -43,11 +43,11 @@ ${message}`;
           className="mb-20"
         >
 
-          <p className="mb-8  text-xs tracking-[0.45em] text-[#D4AF37] md:text-sm">
+          <p className="mb-5  text-xs tracking-[0.45em] text-[#D4AF37] md:text-sm">
             CONTACT
           </p>
 
-          <h2 className="text-4xl font-light leading-none text-white sm:text-5xl md:text-7xl md:mb-5">
+          <h2 className="text-4xl mb-2 font-light leading-none text-white sm:text-5xl md:text-7xl md:mb-5">
             Let’s Create
             <br />
             Something Cinematic
@@ -56,7 +56,7 @@ ${message}`;
         </motion.div>
 
         {/* Main Layout */}
-        <div className="grid h-[50vh] gap-10 lg:grid-cols-2 md:gap-35">
+        <div className="grid md:h-[50vh] min-h-screen gap-10 lg:grid-cols-2 md:gap-35">
 
           {/* Left Content */}
           <motion.div
@@ -66,7 +66,7 @@ ${message}`;
             viewport={{ once: true }}
           >
 
-            <p className="max-w-xl md:pt-5 text-sm leading-8 tracking-[0.08em] text-white/50 md:text-base">
+            <p className="max-w-xl md:pt-5 pt-2 text-sm leading-8 tracking-[0.08em] text-white/50 md:text-base">
               For collaborations, fashion editorials, performances,
               brand campaigns or creative projects,
               feel free to connect and bring your vision to life.

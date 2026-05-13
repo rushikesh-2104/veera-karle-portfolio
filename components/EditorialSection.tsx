@@ -21,7 +21,7 @@ const magazines = [
 
 export default function EditorialSection() {
   return (
-    <section className="relative min-h-screen overflow-hidden bg-black">
+    <section id="magazines" className="relative min-h-screen overflow-hidden bg-black">
 
       {/* Background Glow */}
       <div className="absolute left-1/2 top-1/2 h-[450px] w-[450px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#D4AF37]/10 blur-3xl"></div>

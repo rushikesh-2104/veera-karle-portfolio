@@ -1,6 +1,7 @@
+import Link from "next/link";
 export default function HeroSection() {
   return (
-    <section className="relative h-screen w-full overflow-hidden">
+    <section id="home" className=" relative h-screen w-full overflow-hidden">
 
       {/* Background Video */}
       <video
@@ -33,13 +34,17 @@ export default function HeroSection() {
 
         <div className="md:mt-10 mt-5 flex gap-4">
 
-          <button className="border border-[#D4AF37] px-8 py-4 active:scale-90 text-sm tracking-[0.3em] text-[#D4AF37] transition hover:bg-[#D4AF37] hover:text-black">
-            EXPLORE
-          </button>
+          <Link href="#about">
+  <button className="border border-[#D4AF37] px-6 py-3 active:scale-90 text-sm tracking-[0.3em] text-[#D4AF37] transition hover:bg-[#D4AF37] hover:text-black">
+    EXPLORE
+  </button>
+</Link>
 
-          <button className="bg-[#D4AF37] px-6 py-3 text-sm tracking-[0.2em] text-black transition hover:opacity-80">
-            SHOWREEL
-          </button>
+<Link href="#showreel">
+  <button className="bg-[#D4AF37] px-6 py-3 text-sm active:scale-90 tracking-[0.2em] text-black transition hover:opacity-80">
+    SHOWREEL
+  </button>
+</Link>
 
         </div>
 

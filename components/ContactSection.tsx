@@ -56,7 +56,7 @@ ${message}`;
         </motion.div>
 
         {/* Main Layout */}
-        <div className="grid h-full gap-10 lg:grid-cols-2 md:gap-35">
+        <div className="grid h-[50vh] gap-10 lg:grid-cols-2 md:gap-35">
 
           {/* Left Content */}
           <motion.div

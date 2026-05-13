@@ -18,12 +18,12 @@ export default function Navbar() {
   return (
     <>
       {/* Top Navbar */}
-      <header className="fixed left-0 top-0 z-50 w-full px-5 py-5 md:px-3">
+      <header className="fixed z-50 w-full px-5 py-5 md:px-1">
         
-        <nav className="flex items-center justify-between px-4 py-4 md:px-8 md:pr-5 md:py-8 xl:pr-6 xl:pl-12">
+        <nav className="flex justify-between px-4 py-4 md:px-1 md:pr-3 md:py-1 md:pb-3">
 
           {/* Logo */}
-          <div className="relative pl-5 pt-5 h-[55px] w-[55px] md:h-[70px] md:w-[70px]">
+          <div className="relative pl-1 pt-3 h-[55px] w-[55px] md:h-[70px] md:w-[70px]">
             <Image
               src="/images/logo.png"
               alt="VK Logo"
@@ -38,7 +38,7 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => setMenuOpen(true)}
-            className="text-base tracking-[0.3em] text-[#D4AF37] active:scale-90  pt-5 transition hover:text-[#D4AF37]"
+            className="text-base tracking-[0.3em] text-[#D4AF37] active:scale-90  pt-3 transition hover:text-[#D4AF37]"
           >
             MENU
           </button>
@@ -99,7 +99,7 @@ export default function Navbar() {
             </div>
 
             {/* Bottom Right Text */}
-            <div className="absolute bottom-6 right-6 text-right text-xs tracking-[0.3em] text-white/40 md:bottom-10 md:right-10 md:text-sm">
+            <div className="absolute bottom-6 right-6 text-right text-xs text-[#D4AF37] tracking-[0.3em] md:bottom-10 md:right-10 md:text-sm">
               VEERA KARLE <br />
               DANCER • ACTRESS • MODEL
             </div>

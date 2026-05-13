@@ -8,16 +8,20 @@ const magazines = [
   {
     id: "01",
     image: "/magazins/mag1.png",
+    whatsapp:
+      "https://wa.me/918356947428?text=Hi%20Veera,%20I%20want%20to%20download%20Magazine%2001",
   },
   {
     id: "02",
     image: "/magazins/mag2.png",
+    whatsapp:
+      "https://wa.me/918356947428?text=Hi%20Veera,%20I%20want%20to%20download%20Magazine%2002",
   },
 ];
 
 export default function EditorialSection() {
   return (
-    <section className="relative overflow-hidden bg-black py-24">
+    <section className="relative min-h-screen overflow-hidden bg-black">
 
       {/* Background Glow */}
       <div className="absolute left-1/2 top-1/2 h-[450px] w-[450px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#D4AF37]/10 blur-3xl"></div>
@@ -33,7 +37,7 @@ export default function EditorialSection() {
           className="mb-10 px-6 md:px-12 lg:px-20"
         >
 
-          <p className="mb-4 text-xs tracking-[0.45em] text-[#D4AF37] md:text-sm">
+          <p className="mb-2 text-xs tracking-[0.45em] text-[#D4AF37] md:text-sm">
             FEATURED EDITORIALS
           </p>
 
@@ -50,8 +54,11 @@ export default function EditorialSection() {
 
           {/* Existing Magazine Cards */}
           {magazines.map((mag, index) => (
-            <motion.div
+            <motion.a
               key={mag.id}
+              href={mag.whatsapp}
+              target="_blank"
+              rel="noopener noreferrer"
               initial={{ opacity: 0, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{
@@ -59,11 +66,11 @@ export default function EditorialSection() {
                 delay: index * 0.2,
               }}
               viewport={{ once: true }}
-              className="group relative w-[260px] flex-shrink-0 snap-center md:w-[340px]"
+              className="group relative w-[260px] flex-shrink-0 snap-center cursor-pointer md:w-[28vw]"
             >
 
               {/* Number */}
-              <div className="absolute -left-2 top-4 z-20 text-4xl font-light text-white/10 md:text-6xl">
+              <div className="absolute left-1 top-4 z-20 text-4xl font-light text-white/10 md:text-6xl">
                 {mag.id}
               </div>
 
@@ -84,9 +91,16 @@ export default function EditorialSection() {
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black/10"></div>
 
+                {/* Download Text */}
+                <div className="absolute opacity-0 hover:opacity-100 bottom-0 left-0 right-0 flex items-center justify-center bg-black/60 py-4 backdrop-blur-md">
+                  <p className="text-sm tracking-[0.2em] text-white ">
+                    CLICK TO REQUEST ACCESS
+                  </p>
+                </div>
+
               </div>
 
-            </motion.div>
+            </motion.a>
           ))}
 
           {/* Mystery Card */}

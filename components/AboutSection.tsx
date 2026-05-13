@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function AboutSection() {
   return (
-    <section className="relative overflow-hidden bg-black px-6 py-24 md:px-12 lg:px-20">
+    <section className="relative min-h-screen overflow-hidden bg-black px-6 py-24 md:px-12 lg:px-20">
 
       {/* Background Glow */}
       <div className="absolute left-1/2 top-1/2 h-[400px] w-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#D4AF37]/10 blur-3xl"></div>
@@ -21,7 +21,7 @@ export default function AboutSection() {
         >
 
           {/* Small Heading */}
-          <p className="mb-4 text-sm tracking-[0.4em] text-[#D4AF37]">
+          <p className="mb-2 text-sm tracking-[0.4em] text-[#D4AF37]">
             ABOUT VEERA
           </p>
 
@@ -33,7 +33,7 @@ export default function AboutSection() {
           </h2>
 
           {/* Description */}
-          <p className="mt-10 max-w-xl text-base leading-[2] text-white/70 md:text-lg">
+          <p className="mt-5 max-w-xl text-base leading-[2] text-white/70 md:text-lg">
             Veera Karle is a passionate performer blending dance,
             acting and fashion into cinematic storytelling.
             Through movement, emotion and artistic presence,
@@ -42,11 +42,11 @@ export default function AboutSection() {
           </p>
 
           {/* Stats */}
-          <div className="mt-15 grid grid-cols-3 gap-8">
+          <div className="mt-10 grid grid-cols-3 gap-8">
 
             <div>
               <h3 className="text-3xl text-[#D4AF37] md:text-4xl">
-                5+
+                3+
               </h3>
               <p className="mt-2 text-xs tracking-[0.2em] text-white/50 md:text-sm">
                 YEARS
@@ -55,7 +55,7 @@ export default function AboutSection() {
 
             <div>
               <h3 className="text-3xl text-[#D4AF37] md:text-4xl">
-                20+
+                10+
               </h3>
               <p className="mt-2 text-xs tracking-[0.2em] text-white/50 md:text-sm">
                 SHOWS
@@ -64,7 +64,7 @@ export default function AboutSection() {
 
             <div>
               <h3 className="text-3xl text-[#D4AF37] md:text-4xl">
-                10+
+                5+
               </h3>
               <p className="mt-2 text-xs tracking-[0.2em] text-white/50 md:text-sm">
                 PROJECTS

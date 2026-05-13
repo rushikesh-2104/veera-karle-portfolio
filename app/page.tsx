@@ -3,7 +3,7 @@ import ContactSection from "@/components/ContactSection";
 import EditorialSection from "@/components/EditorialSection";
 import HeroSection from "@/components/HeroSection";
 import Footer from "@/components/layout/footer";
-// import InstagramSection from "@/components/InstagramSection";
+import InstagramSection from "@/components/InstagramSection";
 import Navbar from "@/components/layout/Navbar";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection/>
       <EditorialSection/>
-      {/* <InstagramSection/> */}
+      <InstagramSection/>
       <ContactSection/>
       <Footer/>
     </div>

@@ -5,22 +5,34 @@ import { motion } from "framer-motion";
 
 const posts = [
   {
-    image: "/instagram/image.png",
+    image: "/instagram/i1.png",
   },
   {
-    image: "/instagram/i1.jpeg",
+    image: "/instagram/i2.png",
   },
   {
-    image: "/instagram/i2.jpeg",
+    image: "/instagram/i3.png",
   },
   {
-    image: "/instagram/i3.jpeg",
+    image: "/instagram/i4.png",
+  },
+  {
+    image: "/instagram/i4.png",
+  },
+  {
+    image: "/instagram/i1.png",
+  },
+  {
+    image: "/instagram/i2.png",
+  },
+  {
+    image: "/instagram/i3.png",
   },
 ];
 
 export default function InstagramSection() {
   return (
-    <section className="relative overflow-hidden bg-black py-24">
+    <section id="showreel" className="relative overflow-hidden bg-black py-24">
 
       {/* Background Glow */}
       <div className="absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#D4AF37]/10 blur-3xl"></div>
@@ -98,7 +110,7 @@ export default function InstagramSection() {
         >
 
           <a
-            href="https://instagram.com/"
+            href="https://instagram.com/veera.vibes5"
             target="_blank"
             className="group flex items-center gap-3 rounded-full border border-white/10 bg-white/[0.03] px-6 py-3 text-sm tracking-[0.25em] text-white/60 transition duration-500 hover:border-[#D4AF37]/40 hover:bg-[#D4AF37]/10 hover:text-white"
           >

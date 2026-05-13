@@ -18,9 +18,9 @@ export default function Navbar() {
   return (
     <>
       {/* Top Navbar */}
-      <header className="fixed z-50 w-full px-5 py-5 md:px-1">
+      <header className="fixed z-50 w-full px-1 py-1 md:px-1">
         
-        <nav className="flex justify-between px-4 py-4 md:px-1 md:pr-3 md:py-1 md:pb-3">
+        <nav className="flex justify-between px-2 py-2 md:px-1 md:pr-3 md:py-1 md:pb-3">
 
           {/* Logo */}
           <div className="relative pl-1 pt-3 h-[55px] w-[55px] md:h-[70px] md:w-[70px]">
@@ -38,7 +38,7 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => setMenuOpen(true)}
-            className="text-base tracking-[0.3em] text-[#D4AF37] active:scale-90  pt-3 transition hover:text-[#D4AF37]"
+            className="text-base tracking-[0.3em] text-[#D4AF37] active:scale-90  pt-1 transition hover:text-[#D4AF37]"
           >
             MENU
           </button>

@@ -31,7 +31,7 @@ export default function HeroSection() {
           Crafting elegance through movement, expression and cinematic presence.
         </p>
 
-        <div className="mt-10 flex gap-4">
+        <div className="md:mt-10 mt-5 flex gap-4">
 
           <button className="border border-[#D4AF37] px-8 py-4 active:scale-90 text-sm tracking-[0.3em] text-[#D4AF37] transition hover:bg-[#D4AF37] hover:text-black">
             EXPLORE

@@ -13,21 +13,6 @@ const posts = [
   {
     image: "/instagram/i3.png",
   },
-  {
-    image: "/instagram/i4.png",
-  },
-  {
-    image: "/instagram/i4.png",
-  },
-  {
-    image: "/instagram/i1.png",
-  },
-  {
-    image: "/instagram/i2.png",
-  },
-  {
-    image: "/instagram/i3.png",
-  },
 ];
 
 export default function InstagramSection() {
